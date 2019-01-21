@@ -4,3 +4,28 @@ DISCONNECT
 DISCONNECT
 /*C10*/SET SCHEMA PUBLIC
 DISCONNECT
+/*C55*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=105
+INSERT INTO UQC_URL_QC VALUES(105,'GTI - IN04','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=99&subject_ids%5B%5D=4623&exclude_nullified=true&exclude_outdated=true&has_commentaries=true',1,1)
+COMMIT
+DISCONNECT
+/*C56*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=109
+INSERT INTO UQC_URL_QC VALUES(109,'DESENV - Java','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=160&subject_ids%5B%5D=939&exclude_nullified=true&exclude_outdated=true',0,1)
+COMMIT
+DISCONNECT
+/*C57*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=108
+INSERT INTO UQC_URL_QC VALUES(108,'DESENV - PHP','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=160&subject_ids%5B%5D=943&exclude_nullified=true&exclude_outdated=true',0,1)
+COMMIT
+DISCONNECT
+/*C58*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=109
+INSERT INTO UQC_URL_QC VALUES(109,'DESENV - Java','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=160&subject_ids%5B%5D=939&exclude_nullified=true&exclude_outdated=true',1,1)
+COMMIT
+DISCONNECT
+/*C59*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=108
+INSERT INTO UQC_URL_QC VALUES(108,'DESENV - PHP','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=160&subject_ids%5B%5D=943&exclude_nullified=true&exclude_outdated=true',1,1)
+COMMIT
+DISCONNECT
