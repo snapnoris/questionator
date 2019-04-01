@@ -1,6 +1,44 @@
+/*C7*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C8*/SET SCHEMA PUBLIC
+DISCONNECT
 /*C10*/SET SCHEMA PUBLIC
 DISCONNECT
-/*C11*/SET SCHEMA PUBLIC
+/*C14*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=164
+INSERT INTO UQC_URL_QC VALUES(164,'DF - 840-11','',1,1)
+COMMIT
 DISCONNECT
-/*C13*/SET SCHEMA PUBLIC
+/*C15*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=164
+INSERT INTO UQC_URL_QC VALUES(164,'DF - 840-11','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=61&subject_ids%5B%5D=18701&exclude_nullified=true&exclude_outdated=true&has_commentaries=true',1,1)
+COMMIT
+DISCONNECT
+/*C16*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=164
+INSERT INTO UQC_URL_QC VALUES(164,'DF - 840-11','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=61&subject_ids%5B%5D=18701&subject_ids%5B%5D=17827&exclude_nullified=true&exclude_outdated=true&has_commentaries=true',1,1)
+COMMIT
+DISCONNECT
+/*C17*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=148
+INSERT INTO UQC_URL_QC VALUES(148,'DF - LO-DF','',1,2)
+COMMIT
+DISCONNECT
+/*C18*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=148
+INSERT INTO UQC_URL_QC VALUES(148,'DF - LO-DF','',0,2)
+COMMIT
+DISCONNECT
+/*C19*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=148
+COMMIT
+/*C21*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=164
+INSERT INTO UQC_URL_QC VALUES(164,'DF - LODF e 840/11','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=61&subject_ids%5B%5D=18701&subject_ids%5B%5D=17827&exclude_nullified=true&exclude_outdated=true&has_commentaries=true',1,1)
+COMMIT
+DISCONNECT
+/*C22*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=164
+INSERT INTO UQC_URL_QC VALUES(164,'DF - LODF e 840/11','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=61&subject_ids%5B%5D=18701&subject_ids%5B%5D=17827&exclude_nullified=true&exclude_outdated=true&has_commentaries=true',1,2)
+COMMIT
 DISCONNECT
