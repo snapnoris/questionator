@@ -1,11 +1,9 @@
+/*C7*/SET SCHEMA PUBLIC
+DISCONNECT
 /*C8*/SET SCHEMA PUBLIC
 DISCONNECT
-/*C9*/SET SCHEMA PUBLIC
+/*C10*/SET SCHEMA PUBLIC
 DISCONNECT
-/*C11*/SET SCHEMA PUBLIC
-DISCONNECT
-/*C44*/SET SCHEMA PUBLIC
-DELETE FROM UQC_URL_QC WHERE UQC_ID=23
-INSERT INTO UQC_URL_QC VALUES(23,'ESW - Geral','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=100&exclude_nullified=true&exclude_outdated=true&has_commentaries=true',1,1)
+/*C32*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=168
 COMMIT
-DISCONNECT
