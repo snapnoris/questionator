@@ -4,3 +4,18 @@ DISCONNECT
 DISCONNECT
 /*C10*/SET SCHEMA PUBLIC
 DISCONNECT
+/*C14*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=40
+INSERT INTO UQC_URL_QC VALUES(40,'PT - Coes\u00e3o','',1,1)
+COMMIT
+DISCONNECT
+/*C15*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=40
+INSERT INTO UQC_URL_QC VALUES(40,'PT - Morfologia','',1,1)
+COMMIT
+DISCONNECT
+/*C16*/SET SCHEMA PUBLIC
+DELETE FROM UQC_URL_QC WHERE UQC_ID=40
+INSERT INTO UQC_URL_QC VALUES(40,'PT - Morfologia','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=1&subject_ids%5B%5D=14625&exclude_nullified=true&exclude_outdated=true&has_commentaries=true',1,1)
+COMMIT
+DISCONNECT
