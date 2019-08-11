@@ -1,10 +1,6 @@
-/*C7*/SET SCHEMA PUBLIC
-DISCONNECT
-/*C8*/SET SCHEMA PUBLIC
-DISCONNECT
 /*C10*/SET SCHEMA PUBLIC
 DISCONNECT
-/*C12*/SET SCHEMA PUBLIC
-INSERT INTO UQC_URL_QC VALUES(182,'DCO - Federa\u00e7\u00e3o','https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=3&exclude_nullified=true&exclude_outdated=true&has_commentaries=true&my_questions=not_resolved&subject_ids%5B%5D=16266&subject_ids%5B%5D=18614',1,1)
-COMMIT
+/*C11*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C13*/SET SCHEMA PUBLIC
 DISCONNECT
