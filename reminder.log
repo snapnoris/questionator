@@ -4,42 +4,7 @@ DISCONNECT
 DISCONNECT
 /*C10*/SET SCHEMA PUBLIC
 DISCONNECT
-/*C12*/SET SCHEMA PUBLIC
-INSERT INTO UQC_URL_QC VALUES(187,'DESENV - JEE','https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=160&exclude_nullified=true&exclude_outdated=true&has_commentaries=true&my_questions=not_resolved&subject_ids%5B%5D=940',1,1)
-COMMIT
-DISCONNECT
-/*C14*/SET SCHEMA PUBLIC
-DELETE FROM UQC_URL_QC WHERE UQC_ID=108
-INSERT INTO UQC_URL_QC VALUES(108,'DESENV - PHP','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=160&subject_ids%5B%5D=943&exclude_nullified=true&exclude_outdated=true',0,1)
-COMMIT
-DISCONNECT
-/*C15*/SET SCHEMA PUBLIC
-DELETE FROM UQC_URL_QC WHERE UQC_ID=164
-INSERT INTO UQC_URL_QC VALUES(164,'DF - LODF e 840/11','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=61&subject_ids%5B%5D=18701&subject_ids%5B%5D=17827&exclude_nullified=true&exclude_outdated=true&has_commentaries=true',0,2)
-COMMIT
-DISCONNECT
-/*C16*/SET SCHEMA PUBLIC
-DELETE FROM UQC_URL_QC WHERE UQC_ID=174
-INSERT INTO UQC_URL_QC VALUES(174,'Admin P\u00fablica - Modelos Te\u00f3ricos','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=26&subject_ids%5B%5D=619&has_commentaries=true',0,1)
-COMMIT
-DISCONNECT
-/*C17*/SET SCHEMA PUBLIC
-DELETE FROM UQC_URL_QC WHERE UQC_ID=175
-INSERT INTO UQC_URL_QC VALUES(175,'Auditoria Governamental - B\u00e1sico','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&my_questions=not_resolved&q=&discipline_ids%5B%5D=502&subject_ids%5B%5D=15556&subject_ids%5B%5D=15557&subject_ids%5B%5D=15558&has_commentaries=true',0,1)
-COMMIT
-DISCONNECT
-/*C18*/SET SCHEMA PUBLIC
-DELETE FROM UQC_URL_QC WHERE UQC_ID=184
-INSERT INTO UQC_URL_QC VALUES(184,'Auditoria Governamental - TCU','https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=502&exclude_nullified=true&exclude_outdated=true&has_commentaries=true&my_questions=not_resolved&subject_ids%5B%5D=15576',0,1)
-COMMIT
-DISCONNECT
-/*C19*/SET SCHEMA PUBLIC
-DELETE FROM UQC_URL_QC WHERE UQC_ID=180
-INSERT INTO UQC_URL_QC VALUES(180,'Audotoria Governamental - Amostragem','https://www.qconcursos.com/questoes-de-concursos/questoes?advanced_filter_toggle_input=on&q=&discipline_ids%5B%5D=502&subject_ids%5B%5D=15584&exclude_nullified=true&exclude_outdated=true&has_commentaries=true',0,1)
-COMMIT
-DISCONNECT
-/*C20*/SET SCHEMA PUBLIC
-DELETE FROM UQC_URL_QC WHERE UQC_ID=185
-INSERT INTO UQC_URL_QC VALUES(185,'Control Externo - TCDF','https://www.qconcursos.com/questoes-de-concursos/questoes?exclude_nullified=true&exclude_outdated=true&has_commentaries=true&my_questions=not_resolved&q=TCDF',0,1)
+/*C29*/SET SCHEMA PUBLIC
+INSERT INTO UQC_URL_QC VALUES(188,'GTI - ISO 38500','https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=99&exclude_nullified=true&exclude_outdated=true&has_commentaries=true&my_questions=not_resolved&q=ISO%2038500&subject_ids%5B%5D=20870',1,1)
 COMMIT
 DISCONNECT
