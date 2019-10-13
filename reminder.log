@@ -4,7 +4,3 @@ DISCONNECT
 DISCONNECT
 /*C10*/SET SCHEMA PUBLIC
 DISCONNECT
-/*C29*/SET SCHEMA PUBLIC
-INSERT INTO UQC_URL_QC VALUES(188,'GTI - ISO 38500','https://www.qconcursos.com/questoes-de-concursos/questoes?discipline_ids%5B%5D=99&exclude_nullified=true&exclude_outdated=true&has_commentaries=true&my_questions=not_resolved&q=ISO%2038500&subject_ids%5B%5D=20870',1,1)
-COMMIT
-DISCONNECT
